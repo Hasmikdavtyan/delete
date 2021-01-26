@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>   </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+   
+     <form id='form'  action="">
+         <input name='item' type="text">
+         <input type="submit">
+     </form>
+      <ul id='todoList'> 
+     <% data.forEach(item => { %>
+      <li id='<%= item._id  %>'>  <%= item.item  %> </li>   
+   <%  }); %>
+</ul>
+
+ <script src='/javascripts/todo.js'></script>
+  </body>
+</html>

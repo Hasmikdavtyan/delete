@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #00B7FF;
+}
+
+a {
+  color: #0d0d0e;
+  font-size: 25px
+}
+
+li:hover{
+  font-size: 25px
+}
